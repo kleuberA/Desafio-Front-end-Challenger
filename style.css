@@ -1,0 +1,118 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Barlow', sans-serif;
+	font-size: 18px
+	font-weight: 400;
+}
+a{
+	text-decoration: none;
+	display: inline-block;
+}
+ul{
+	list-style: none;
+}
+/*Cabecalho*/
+.cabecalho{
+	display: grid;
+    grid-template-columns: 45vw 45vw;
+    grid-template-rows: 5vw;
+    width: 90%;
+    justify-content: center;
+    margin: auto;
+    align-items: center;
+}
+.logo{
+	display: inline-block;
+	width: 2.5vw;
+}
+.menu{
+	display: inline-flex;
+	justify-content: flex-end;
+}
+.item-menu{
+	margin-right: 1vw;
+	padding: 1vw;
+}
+/*conteudo Principal*/
+.container{
+	width: 90%;
+    margin: auto;
+    padding: 4vw 0 0 0;
+}
+.informe{
+	background: hsl(230, 29%, 20%);
+    color: #FFF;
+    width: 4vw;
+    border-radius: 2vw;
+    display: inline-block;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: 'Barlow Condensed', sans-serif;
+}
+.informe-dois{
+	letter-spacing: .2rem;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 400;
+    color: hsl(231, 7%, 65%);
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0 0 0 1vw;
+}
+.titulo-principal{
+	display: block;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+    width: 25vw;
+    color: hsl(230, 29%, 20%);
+    padding: 2vw 0 0 0;
+}
+.sub-titulo{
+	font-weight: 400;
+    width: 20vw;
+    color: hsl(231, 7%, 65%);
+    padding: 1vw 0 1vw 0;
+}
+.butao{
+	width: 17vw;
+    background: hsl(0, 100%, 68%);
+    color: hsl(231, 7%, 65%);
+    border-radius: .3vw;
+    height: 3vw;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: inline-flex;
+    font-size: 18px;
+    color: #FFF;
+}
+.informacao{
+	display: inline-block;
+    padding: 0 0 0 1vw;
+    letter-spacing: .2rem;
+}
+.link{
+	padding: 2vw 0 0 0;
+}
+.teste{
+	display: inline-block;
+	padding: 5vw 0 0 0;
+}
+.imagem-container{
+	display: inline-block;
+    width: 50vw;
+    animation: teste;
+}
+img{
+	display: inline-block;
+}
+.conteudo{
+	display: grid;
+    grid-template-columns: 45vw 45vw;
+    width: 90%;
+    margin: auto;
+}
